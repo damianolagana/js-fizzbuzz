@@ -1,0 +1,28 @@
+body{
+    background-color: darkcyan;
+}
+
+h1{
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+}
+
+#container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: cornflowerblue;
+    
+}
