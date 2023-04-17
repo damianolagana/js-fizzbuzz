@@ -8,8 +8,10 @@ for(let i = 1; i <= 100; i++){
         risultato = "Fizz"
     } else if (i % 5 == 0){
        risultato = "Buzz"
-    } else {
-        
+    }  
+    
+    if(i % 3 == 0 && i % 5 == 0){
+        risultato ="FizzBuzz"
     }
 
     console.log(risultato)
